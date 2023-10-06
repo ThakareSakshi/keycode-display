@@ -11,7 +11,7 @@ document.addEventListener('keypress',(e)=>{
     codeb.innerHTML=`<span>${codetext}</span>`;
     codeb.style.fontSize=30+"px";
     codeb.style.padding=30+"px";
-    codeb.style.width=200+"px";
+    // codeb.style.width=200+"px";
     codeb.style.backgroundColor="orange";
     
 })
