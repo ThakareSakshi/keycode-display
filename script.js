@@ -1,7 +1,7 @@
 let keyb=document.getElementById("key");
 let codeb=document.getElementById("code");
 
-document.addEventListener('keypress',(e)=>{
+document.addEventListener('keydown',(e)=>{
     let keytext=e.key;
     console.log(e.key);
     let codetext=e.keyCode;
@@ -12,6 +12,6 @@ document.addEventListener('keypress',(e)=>{
     codeb.style.fontSize=30+"px";
     codeb.style.padding=30+"px";
     // codeb.style.width=200+"px";
-    codeb.style.backgroundColor="orange";
+    codeb.style.color="orange";
     
 })
